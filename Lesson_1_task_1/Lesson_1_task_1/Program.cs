@@ -10,7 +10,7 @@ namespace Program
             n = Convert.ToInt32(Console.ReadLine());
             int d = 0;
             int i = 2;
-            if (i < n)
+            while (i < n)
             {
                 if (n % i == 0)
                 {
@@ -20,14 +20,15 @@ namespace Program
                 {
                     i++;
                 }
-                if (d == 0)
-                {
-                    Console.WriteLine("prostoe");
-                }
-                else
-                {
-                    Console.WriteLine("not prostoe");
-                }
+                break;
+            }
+            if (d == 0)
+            {
+               Console.WriteLine("prostoe");
+            }
+            else
+            {
+               Console.WriteLine("not prostoe");
             }
         }
     }
