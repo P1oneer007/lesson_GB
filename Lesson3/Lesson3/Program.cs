@@ -31,7 +31,7 @@ public class DistanceBenchmark
             pointStructDoubleArray[i] = new PointStructDouble(x, y, z);
         }
     }
-
+    
     [Benchmark]
     public void CalculateDistance_PointClass()
     {
