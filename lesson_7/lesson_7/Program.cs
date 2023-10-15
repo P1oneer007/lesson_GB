@@ -10,7 +10,6 @@ class Program
         int count = CountPaths(M, N);
         Console.WriteLine("Количество путей: " + count);
     }
-
     static int CountPaths(int m, int n)
     {
         int[,] dp = new int[m, n];
