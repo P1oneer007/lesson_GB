@@ -99,7 +99,6 @@ class ExternalSort
         }
     }
 }
-
 class PriorityQueue<TPriority, TValue>
 {
     private SortedDictionary<TPriority, Queue<TValue>> _dict;
