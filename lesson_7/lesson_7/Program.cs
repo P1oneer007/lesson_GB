@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         int M = 3; // количество строк
-        int N = 4; // количество столбцов
+        int N = 2; // количество столбцов
 
         int count = CountPaths(M, N);
         Console.WriteLine("Количество путей: " + count);

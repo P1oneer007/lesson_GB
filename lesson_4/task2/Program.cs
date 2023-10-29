@@ -194,17 +194,19 @@ public class Program
     public static void Main(string[] args)
     {
         var tree = new BinarySearchTree();
-        tree.AddItem(5);
-        tree.AddItem(3);
-        tree.AddItem(7);
-        tree.AddItem(2);
-        tree.AddItem(4);
-        tree.AddItem(6);
-        tree.AddItem(8);
         tree.AddItem(1);
+        tree.AddItem(2);
+        tree.AddItem(3);
+        tree.AddItem(4);
+        tree.AddItem(5);
+        tree.AddItem(6);
+        tree.AddItem(7);
+        tree.AddItem(8);
         tree.AddItem(9);
-        tree.AddItem(0);
         tree.AddItem(10);
+
+        tree.RemoveItem(6);
+
         tree.PrintTree();
     }
 }
